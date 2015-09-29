@@ -31,7 +31,7 @@ def main(origdenoms):
 			if sum(coinlist) > 100:
 				poppedcoin = coinlist.pop()
 				continue
-		if	sum(coinlist) != 100:
+		if sum(coinlist) != 100:
 			continuewithcurrdenoms = False
 			coinlist = []
 	return candidates
